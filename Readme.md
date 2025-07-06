@@ -8,8 +8,11 @@ Sum = (n - 2) × 180°
 ---
 
 ## 📸 Preview
+---
 
-![polygon-angle-visualizer-preview](![alt text](image.png))
+
+![alt text](image.png)
+
 
 ---
 
@@ -42,8 +45,8 @@ To visually demonstrate how increasing the number of sides of a polygon increase
 
 ### 1. Clone the Repository
 
-git clone https://github.com/your-username/polygon-angle-visualizer.git
-cd polygon-angle-visualizer
+- git clone https://github.com/your-username/polygon-angle-visualizer.git
+- cd polygon-angle-visualizer
 
 ### 2. Open in Browser
 
