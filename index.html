@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Polygon Angle Visualizer</title>
+  <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 Polygon Angle Visualizer</h1>
+
+    <div class="controls">
+      <button id="decrease">➖</button>
+      <span id="sides-display">Sides: 3</span>
+      <button id="increase">➕</button>
+    </div>
+
+    <canvas id="polygon-canvas" width="400" height="400"></canvas>
+
+    <div class="formula-box">
+      <p id="angle-formula">Sum of interior angles: <strong>180°</strong></p>
+    </div>
+
+    <div class="toggles">
+      <button id="toggle-theme">🌞 Toggle Theme</button>
+      <button id="toggle-voice">🔊 Voice Over</button>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
